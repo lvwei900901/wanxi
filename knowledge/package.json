@@ -1,0 +1,32 @@
+{
+  "name": "wanxi-knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run start:dev -w @kb/api",
+    "dev:web": "npm run dev -w @kb/web",
+    "build": "npm run build -w @kb/contracts && npm run build -w @kb/db && npm run build -w @kb/api && npm run build -w @kb/web",
+    "db:generate": "npm run generate -w @kb/db",
+    "db:migrate": "npm run migrate -w @kb/db",
+    "db:seed": "npm run seed -w @kb/db",
+    "db:vectors": "npm run vectors -w @kb/db",
+    "db:parity": "npm run parity -w @kb/db",
+    "db:reset": "npm run reset -w @kb/db",
+    "kb:reindex": "npm run reindex -w @kb/api --",
+    "verify:api": "npm run build -w @kb/contracts && npm run build -w @kb/api && node apps/api/verify-api.mjs",
+    "typecheck": "npm run typecheck -w @kb/contracts && npm run typecheck -w @kb/db && npm run typecheck -w @kb/api && npm run typecheck -w @kb/web",
+    "kb:export-strapi": "npm run export:strapi -w @kb/db",
+    "verify:seed": "node packages/db/verify-seed-import.mjs",
+    "verify:sync": "npm run build -w @kb/api && node apps/api/verify-sync.mjs",
+    "verify:hook": "npm run build -w @kb/api && node apps/api/verify-hook.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.9.3"
+  }
+}

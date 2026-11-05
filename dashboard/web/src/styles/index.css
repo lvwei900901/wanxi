@@ -1,0 +1,53 @@
+/* ============================================================
+   样式入口：Tailwind + 自有 CSS 分层
+   ------------------------------------------------------------
+   1. 只取 Tailwind 的 theme 与 utilities，故意跳过 preflight：
+      preflight 会把 button/input 的背景与边框重置成默认值，而
+      antd 的组件样式用 :where() 压低优先级，会被 preflight 盖掉。
+      缺少的边框默认值已在 base.css 里补上。
+   2. 自有 CSS 放进 base / components 层，utilities 排最后，
+      这样 JSX 上的工具类永远能覆盖组件样式。
+   3. antd.css 故意**不带 layer**：antd 的样式是运行时注入的、未分层，
+      未分层样式优先级高于任何 layer，覆盖规则必须和它同层才有效。
+   ============================================================ */
+
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@import "./tokens.css" layer(base);
+@import "./base.css" layer(base);
+@import "./app.css" layer(components);
+@import "./antd.css";
+
+/* 设计令牌接进 Tailwind 主题：bg-surface / text-ink / border-rule 等可直接用。
+   inline 表示生成工具类时把 var(...) 原样内联，改令牌即可全局生效。 */
+@theme inline {
+  --color-page: var(--paper);
+  --color-surface: var(--paper-hi);
+  --color-sunk: var(--paper-sunk);
+
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-rule-strong: var(--rule-strong);
+
+  --color-accent: var(--accent);
+  --color-accent-deep: var(--accent-deep);
+  --color-accent-wash: var(--accent-wash);
+
+  --color-teal: var(--pine);
+  --color-amber: var(--ochre);
+  --color-blue: var(--blue);
+  --color-violet: var(--plum);
+
+  --radius-card: 14px;
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04), 0 6px 16px -8px rgba(15, 23, 42, 0.08);
+}
+
+@source "../**/*.{ts,tsx}";

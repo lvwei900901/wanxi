@@ -1,0 +1,70 @@
+/**
+ * 覆盖 antd / antd-x 组件样式的规则集中放这里。
+ *
+ * 为什么单独一个文件：antd 6 用 CSS-in-JS 在运行时注入 <style>，
+ * 那些规则**不带 cascade layer**；而 app.css 整份都在 `@layer components` 里。
+ * 按 CSS 规范，未分层的样式优先级高于任何 layer 内的样式 ——
+ * 也就是说不管特异性写多高，放在 layer 里的覆盖都会输。
+ *
+ * 所以这个文件不带 layer 引入（见 index.css），靠特异性压过组件默认值。
+ * 普通业务样式不要写在这里。
+ */
+
+/* ---- 角色头像 ---- */
+/* AI 用品牌朱红：整块白底里唯一的高饱和点，一眼认得出谁在说话 */
+.insight-drawer .insight-avatar--ai {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.insight-drawer .insight-avatar--user {
+  background: var(--paper-hi);
+  color: var(--muted);
+  border: 1px solid var(--rule);
+}
+
+/* ---- 会话列表项 ---- */
+/* antd x 默认整块带 padding 且只有 40px 高，这里改成滚动容器 + 两行内容 */
+.session-list__items {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.session-list__items .ant-conversations-item {
+  height: auto;
+  min-height: 0;
+  padding: 8px 9px;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+
+.session-list__items .ant-conversations-label {
+  white-space: normal;
+  overflow: hidden;
+}
+
+.session-list__items .ant-conversations-item-active {
+  background: var(--accent-wash);
+}
+
+.session-list__items .ant-conversations-item-active .ant-conversations-label {
+  color: var(--ink);
+}
+
+/* ---- 筛选栏右端的 AI Insight 入口 ---- */
+/* 窄屏收成圆形图标：文字按钮要 109px，会把吸顶筛选栏再撑出一行。
+   宽度和 padding 是 antd Button 自己写的，只能放这个无 layer 文件里改。 */
+@media (max-width: 620px) {
+  .ant-btn.insight-entry {
+    width: 32px;
+    min-width: 32px;
+    padding: 0;
+    border-radius: 50%;
+  }
+
+  .ant-btn.insight-entry .insight-entry__text {
+    display: none;
+  }
+}

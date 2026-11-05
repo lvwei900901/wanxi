@@ -1,0 +1,26 @@
+{
+  "name": "@kb/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "prisma generate",
+    "migrate": "prisma migrate deploy",
+    "migrate:dev": "prisma migrate dev",
+    "seed": "tsx src/seed.ts",
+    "vectors": "tsx src/vectors.ts",
+    "parity": "tsx src/parity.ts",
+    "reset": "prisma migrate reset --force --skip-seed && tsx src/seed.ts && tsx src/vectors.ts && tsx src/parity.ts",
+    "typecheck": "tsc --noEmit",
+    "export:strapi": "tsx src/export-strapi.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "prisma": "6.19.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

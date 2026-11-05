@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "product_slug": "nova-x4",
+    "question": "What scenarios is Nova X4 best suited for?",
+    "answer": "Nova X4 is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 2,
+    "product_slug": "nova-x4",
+    "question": "Does Nova X4 support AI event detection?",
+    "answer": "Nova X4 is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 3,
+    "product_slug": "nova-x8",
+    "question": "What scenarios is Nova X8 best suited for?",
+    "answer": "Nova X8 is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 4,
+    "product_slug": "nova-x8",
+    "question": "Does Nova X8 support AI event detection?",
+    "answer": "Nova X8 is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 5,
+    "product_slug": "nova-ptz-30",
+    "question": "What scenarios is Nova PTZ 30 best suited for?",
+    "answer": "Nova PTZ 30 is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 6,
+    "product_slug": "nova-ptz-30",
+    "question": "Does Nova PTZ 30 support AI event detection?",
+    "answer": "Nova PTZ 30 is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 7,
+    "product_slug": "nova-mini-dome",
+    "question": "What scenarios is Nova Mini Dome best suited for?",
+    "answer": "Nova Mini Dome is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 8,
+    "product_slug": "nova-mini-dome",
+    "question": "Does Nova Mini Dome support AI event detection?",
+    "answer": "Nova Mini Dome is designed for Warehouse, Retail scenarios. Its core capabilities include 4K imaging, Low-light color imaging, Edge event detection."
+  },
+  {
+    "id": 9,
+    "product_slug": "thermal-t2",
+    "question": "What scenarios is Thermal T2 best suited for?",
+    "answer": "Thermal T2 is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 10,
+    "product_slug": "thermal-t2",
+    "question": "Does Thermal T2 support AI event detection?",
+    "answer": "Thermal T2 is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 11,
+    "product_slug": "thermal-t4",
+    "question": "What scenarios is Thermal T4 best suited for?",
+    "answer": "Thermal T4 is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 12,
+    "product_slug": "thermal-t4",
+    "question": "Does Thermal T4 support AI event detection?",
+    "answer": "Thermal T4 is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 13,
+    "product_slug": "thermal-ptz-25",
+    "question": "What scenarios is Thermal PTZ 25 best suited for?",
+    "answer": "Thermal PTZ 25 is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 14,
+    "product_slug": "thermal-ptz-25",
+    "question": "Does Thermal PTZ 25 support AI event detection?",
+    "answer": "Thermal PTZ 25 is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 15,
+    "product_slug": "thermal-dualsense",
+    "question": "What scenarios is Thermal DualSense best suited for?",
+    "answer": "Thermal DualSense is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 16,
+    "product_slug": "thermal-dualsense",
+    "question": "Does Thermal DualSense support AI event detection?",
+    "answer": "Thermal DualSense is designed for Perimeter, Industrial scenarios. Its core capabilities include Thermal imaging, Temperature anomaly detection, Perimeter analytics."
+  },
+  {
+    "id": 17,
+    "product_slug": "lite-c1",
+    "question": "What scenarios is Lite C1 best suited for?",
+    "answer": "Lite C1 is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 18,
+    "product_slug": "lite-c1",
+    "question": "Does Lite C1 support AI event detection?",
+    "answer": "Lite C1 is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 19,
+    "product_slug": "lite-c2",
+    "question": "What scenarios is Lite C2 best suited for?",
+    "answer": "Lite C2 is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 20,
+    "product_slug": "lite-c2",
+    "question": "Does Lite C2 support AI event detection?",
+    "answer": "Lite C2 is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 21,
+    "product_slug": "lite-dome",
+    "question": "What scenarios is Lite Dome best suited for?",
+    "answer": "Lite Dome is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 22,
+    "product_slug": "lite-dome",
+    "question": "Does Lite Dome support AI event detection?",
+    "answer": "Lite Dome is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 23,
+    "product_slug": "lite-nvr-kit",
+    "question": "What scenarios is Lite NVR Kit best suited for?",
+    "answer": "Lite NVR Kit is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 24,
+    "product_slug": "lite-nvr-kit",
+    "question": "Does Lite NVR Kit support AI event detection?",
+    "answer": "Lite NVR Kit is designed for Small Business, Small Retail scenarios. Its core capabilities include Quick installation, Mobile setup, Motion alerts."
+  },
+  {
+    "id": 25,
+    "product_slug": "panoramic-p6",
+    "question": "What scenarios is Panoramic P6 best suited for?",
+    "answer": "Panoramic P6 is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 26,
+    "product_slug": "panoramic-p6",
+    "question": "Does Panoramic P6 support AI event detection?",
+    "answer": "Panoramic P6 is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 27,
+    "product_slug": "panoramic-p12",
+    "question": "What scenarios is Panoramic P12 best suited for?",
+    "answer": "Panoramic P12 is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 28,
+    "product_slug": "panoramic-p12",
+    "question": "Does Panoramic P12 support AI event detection?",
+    "answer": "Panoramic P12 is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 29,
+    "product_slug": "panoramic-multiview",
+    "question": "What scenarios is Panoramic MultiView best suited for?",
+    "answer": "Panoramic MultiView is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 30,
+    "product_slug": "panoramic-multiview",
+    "question": "Does Panoramic MultiView support AI event detection?",
+    "answer": "Panoramic MultiView is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 31,
+    "product_slug": "panoramic-fisheye",
+    "question": "What scenarios is Panoramic Fisheye best suited for?",
+    "answer": "Panoramic Fisheye is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 32,
+    "product_slug": "panoramic-fisheye",
+    "question": "Does Panoramic Fisheye support AI event detection?",
+    "answer": "Panoramic Fisheye is designed for Lobby, Open Office scenarios. Its core capabilities include Wide field of view, Multi-direction capture, Digital PTZ."
+  },
+  {
+    "id": 33,
+    "product_slug": "edge-box-e1",
+    "question": "What scenarios is Edge Box E1 best suited for?",
+    "answer": "Edge Box E1 is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 34,
+    "product_slug": "edge-box-e1",
+    "question": "Does Edge Box E1 support AI event detection?",
+    "answer": "Edge Box E1 is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 35,
+    "product_slug": "edge-box-e4",
+    "question": "What scenarios is Edge Box E4 best suited for?",
+    "answer": "Edge Box E4 is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 36,
+    "product_slug": "edge-box-e4",
+    "question": "Does Edge Box E4 support AI event detection?",
+    "answer": "Edge Box E4 is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 37,
+    "product_slug": "edge-gateway-g2",
+    "question": "What scenarios is Edge Gateway G2 best suited for?",
+    "answer": "Edge Gateway G2 is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 38,
+    "product_slug": "edge-gateway-g2",
+    "question": "Does Edge Gateway G2 support AI event detection?",
+    "answer": "Edge Gateway G2 is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 39,
+    "product_slug": "edge-analytics-hub",
+    "question": "What scenarios is Edge Analytics Hub best suited for?",
+    "answer": "Edge Analytics Hub is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  },
+  {
+    "id": 40,
+    "product_slug": "edge-analytics-hub",
+    "question": "Does Edge Analytics Hub support AI event detection?",
+    "answer": "Edge Analytics Hub is designed for Multi-site Deployment, Existing Camera Upgrade scenarios. Its core capabilities include Local AI inference, Multi-camera support, Rule-based events."
+  }
+]

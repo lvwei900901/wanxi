@@ -1,0 +1,14 @@
+{
+  "name": "AsterVision",
+  "slug": "astervision",
+  "description": "AsterVision provides AI-enabled video security products for retail, warehouse, office, perimeter and industrial monitoring scenarios.",
+  "website": "https://example.com/astervision",
+  "founded": "2022",
+  "headquarters": "Hangzhou, China",
+  "core_capabilities": [
+    "AI video security",
+    "Edge analytics",
+    "Thermal imaging",
+    "Multi-site management"
+  ]
+}

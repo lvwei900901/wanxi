@@ -1,0 +1,706 @@
+[
+  {
+    "id": 1,
+    "slug": "nova-x4",
+    "name": "Nova X4",
+    "series_slug": "nova",
+    "series_name": "Nova Series",
+    "short_description": "Nova X4 is part of the Nova Series for warehouse and enterprise monitoring.",
+    "overview": "Nova X4 combines 4k imaging, low-light color imaging and edge event detection for practical deployment.",
+    "key_features": [
+      "4K imaging",
+      "Low-light color imaging",
+      "Edge event detection",
+      "PoE support"
+    ],
+    "best_for": [
+      "Warehouse",
+      "Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "4K",
+      "connectivity": "PoE",
+      "environment": "Indoor",
+      "ai_features": [
+        "Line crossing",
+        "Object left/removed",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      1,
+      2
+    ],
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "slug": "nova-x8",
+    "name": "Nova X8",
+    "series_slug": "nova",
+    "series_name": "Nova Series",
+    "short_description": "Nova X8 is part of the Nova Series for warehouse and enterprise monitoring.",
+    "overview": "Nova X8 combines 4k imaging, low-light color imaging and edge event detection for practical deployment.",
+    "key_features": [
+      "4K imaging",
+      "Low-light color imaging",
+      "Edge event detection",
+      "PoE support"
+    ],
+    "best_for": [
+      "Warehouse",
+      "Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "4K",
+      "connectivity": "Ethernet",
+      "environment": "Outdoor",
+      "ai_features": [
+        "Line crossing",
+        "Intrusion detection",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      3,
+      4
+    ],
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "slug": "nova-ptz-30",
+    "name": "Nova PTZ 30",
+    "series_slug": "nova",
+    "series_name": "Nova Series",
+    "short_description": "Nova PTZ 30 is part of the Nova Series for warehouse and enterprise monitoring.",
+    "overview": "Nova PTZ 30 combines 4k imaging, low-light color imaging and edge event detection for practical deployment.",
+    "key_features": [
+      "4K imaging",
+      "Low-light color imaging",
+      "Edge event detection",
+      "PoE support"
+    ],
+    "best_for": [
+      "Warehouse",
+      "Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "1080p",
+      "connectivity": "Ethernet",
+      "environment": "Indoor",
+      "ai_features": [
+        "Object left/removed",
+        "Person detection",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      5,
+      6
+    ],
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "slug": "nova-mini-dome",
+    "name": "Nova Mini Dome",
+    "series_slug": "nova",
+    "series_name": "Nova Series",
+    "short_description": "Nova Mini Dome is part of the Nova Series for warehouse and enterprise monitoring.",
+    "overview": "Nova Mini Dome combines 4k imaging, low-light color imaging and edge event detection for practical deployment.",
+    "key_features": [
+      "4K imaging",
+      "Low-light color imaging",
+      "Edge event detection",
+      "PoE support"
+    ],
+    "best_for": [
+      "Warehouse",
+      "Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "5MP",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Person detection",
+        "Object left/removed",
+        "Intrusion detection"
+      ]
+    },
+    "faq_ids": [
+      7,
+      8
+    ],
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "slug": "thermal-t2",
+    "name": "Thermal T2",
+    "series_slug": "thermal",
+    "series_name": "Thermal Series",
+    "short_description": "Thermal T2 is part of the Thermal Series for perimeter and enterprise monitoring.",
+    "overview": "Thermal T2 combines thermal imaging, temperature anomaly detection and perimeter analytics for practical deployment.",
+    "key_features": [
+      "Thermal imaging",
+      "Temperature anomaly detection",
+      "Perimeter analytics",
+      "IP67 housing"
+    ],
+    "best_for": [
+      "Perimeter",
+      "Industrial",
+      "Critical Infrastructure"
+    ],
+    "specs": {
+      "resolution": "5MP",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor",
+      "ai_features": [
+        "Vehicle detection",
+        "Intrusion detection",
+        "Line crossing"
+      ]
+    },
+    "faq_ids": [
+      9,
+      10
+    ],
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "slug": "thermal-t4",
+    "name": "Thermal T4",
+    "series_slug": "thermal",
+    "series_name": "Thermal Series",
+    "short_description": "Thermal T4 is part of the Thermal Series for perimeter and enterprise monitoring.",
+    "overview": "Thermal T4 combines thermal imaging, temperature anomaly detection and perimeter analytics for practical deployment.",
+    "key_features": [
+      "Thermal imaging",
+      "Temperature anomaly detection",
+      "Perimeter analytics",
+      "IP67 housing"
+    ],
+    "best_for": [
+      "Perimeter",
+      "Industrial",
+      "Critical Infrastructure"
+    ],
+    "specs": {
+      "resolution": "1080p",
+      "connectivity": "Ethernet",
+      "environment": "Indoor",
+      "ai_features": [
+        "Object left/removed",
+        "Intrusion detection",
+        "Line crossing"
+      ]
+    },
+    "faq_ids": [
+      11,
+      12
+    ],
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "slug": "thermal-ptz-25",
+    "name": "Thermal PTZ 25",
+    "series_slug": "thermal",
+    "series_name": "Thermal Series",
+    "short_description": "Thermal PTZ 25 is part of the Thermal Series for perimeter and enterprise monitoring.",
+    "overview": "Thermal PTZ 25 combines thermal imaging, temperature anomaly detection and perimeter analytics for practical deployment.",
+    "key_features": [
+      "Thermal imaging",
+      "Temperature anomaly detection",
+      "Perimeter analytics",
+      "IP67 housing"
+    ],
+    "best_for": [
+      "Perimeter",
+      "Industrial",
+      "Critical Infrastructure"
+    ],
+    "specs": {
+      "resolution": "1080p",
+      "connectivity": "PoE",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Line crossing",
+        "Intrusion detection",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      13,
+      14
+    ],
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "slug": "thermal-dualsense",
+    "name": "Thermal DualSense",
+    "series_slug": "thermal",
+    "series_name": "Thermal Series",
+    "short_description": "Thermal DualSense is part of the Thermal Series for perimeter and enterprise monitoring.",
+    "overview": "Thermal DualSense combines thermal imaging, temperature anomaly detection and perimeter analytics for practical deployment.",
+    "key_features": [
+      "Thermal imaging",
+      "Temperature anomaly detection",
+      "Perimeter analytics",
+      "IP67 housing"
+    ],
+    "best_for": [
+      "Perimeter",
+      "Industrial",
+      "Critical Infrastructure"
+    ],
+    "specs": {
+      "resolution": "5MP",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor",
+      "ai_features": [
+        "Vehicle detection",
+        "Line crossing",
+        "Object left/removed"
+      ]
+    },
+    "faq_ids": [
+      15,
+      16
+    ],
+    "status": "beta"
+  },
+  {
+    "id": 9,
+    "slug": "lite-c1",
+    "name": "Lite C1",
+    "series_slug": "lite",
+    "series_name": "Lite Series",
+    "short_description": "Lite C1 is part of the Lite Series for small business and enterprise monitoring.",
+    "overview": "Lite C1 combines quick installation, mobile setup and motion alerts for practical deployment.",
+    "key_features": [
+      "Quick installation",
+      "Mobile setup",
+      "Motion alerts",
+      "Cloud-ready connectivity"
+    ],
+    "best_for": [
+      "Small Business",
+      "Small Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "5MP",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Object left/removed",
+        "Person detection",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      17,
+      18
+    ],
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "slug": "lite-c2",
+    "name": "Lite C2",
+    "series_slug": "lite",
+    "series_name": "Lite Series",
+    "short_description": "Lite C2 is part of the Lite Series for small business and enterprise monitoring.",
+    "overview": "Lite C2 combines quick installation, mobile setup and motion alerts for practical deployment.",
+    "key_features": [
+      "Quick installation",
+      "Mobile setup",
+      "Motion alerts",
+      "Cloud-ready connectivity"
+    ],
+    "best_for": [
+      "Small Business",
+      "Small Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "4K",
+      "connectivity": "Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Line crossing",
+        "Person detection",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      19,
+      20
+    ],
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "slug": "lite-dome",
+    "name": "Lite Dome",
+    "series_slug": "lite",
+    "series_name": "Lite Series",
+    "short_description": "Lite Dome is part of the Lite Series for small business and enterprise monitoring.",
+    "overview": "Lite Dome combines quick installation, mobile setup and motion alerts for practical deployment.",
+    "key_features": [
+      "Quick installation",
+      "Mobile setup",
+      "Motion alerts",
+      "Cloud-ready connectivity"
+    ],
+    "best_for": [
+      "Small Business",
+      "Small Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "4K",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Outdoor",
+      "ai_features": [
+        "Intrusion detection",
+        "Object left/removed",
+        "Person detection"
+      ]
+    },
+    "faq_ids": [
+      21,
+      22
+    ],
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "slug": "lite-nvr-kit",
+    "name": "Lite NVR Kit",
+    "series_slug": "lite",
+    "series_name": "Lite Series",
+    "short_description": "Lite NVR Kit is part of the Lite Series for small business and enterprise monitoring.",
+    "overview": "Lite NVR Kit combines quick installation, mobile setup and motion alerts for practical deployment.",
+    "key_features": [
+      "Quick installation",
+      "Mobile setup",
+      "Motion alerts",
+      "Cloud-ready connectivity"
+    ],
+    "best_for": [
+      "Small Business",
+      "Small Retail",
+      "Office"
+    ],
+    "specs": {
+      "resolution": "6MP",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Object left/removed",
+        "Intrusion detection",
+        "Line crossing"
+      ]
+    },
+    "faq_ids": [
+      23,
+      24
+    ],
+    "status": "beta"
+  },
+  {
+    "id": 13,
+    "slug": "panoramic-p6",
+    "name": "Panoramic P6",
+    "series_slug": "panoramic",
+    "series_name": "Panoramic Series",
+    "short_description": "Panoramic P6 is part of the Panoramic Series for lobby and enterprise monitoring.",
+    "overview": "Panoramic P6 combines wide field of view, multi-direction capture and digital ptz for practical deployment.",
+    "key_features": [
+      "Wide field of view",
+      "Multi-direction capture",
+      "Digital PTZ",
+      "High-density area coverage"
+    ],
+    "best_for": [
+      "Lobby",
+      "Open Office",
+      "Retail Floor",
+      "Public Space"
+    ],
+    "specs": {
+      "resolution": "4K",
+      "connectivity": "PoE",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Object left/removed",
+        "Vehicle detection",
+        "Intrusion detection"
+      ]
+    },
+    "faq_ids": [
+      25,
+      26
+    ],
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "slug": "panoramic-p12",
+    "name": "Panoramic P12",
+    "series_slug": "panoramic",
+    "series_name": "Panoramic Series",
+    "short_description": "Panoramic P12 is part of the Panoramic Series for lobby and enterprise monitoring.",
+    "overview": "Panoramic P12 combines wide field of view, multi-direction capture and digital ptz for practical deployment.",
+    "key_features": [
+      "Wide field of view",
+      "Multi-direction capture",
+      "Digital PTZ",
+      "High-density area coverage"
+    ],
+    "best_for": [
+      "Lobby",
+      "Open Office",
+      "Retail Floor",
+      "Public Space"
+    ],
+    "specs": {
+      "resolution": "1080p",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Person detection",
+        "Object left/removed",
+        "Line crossing"
+      ]
+    },
+    "faq_ids": [
+      27,
+      28
+    ],
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "slug": "panoramic-multiview",
+    "name": "Panoramic MultiView",
+    "series_slug": "panoramic",
+    "series_name": "Panoramic Series",
+    "short_description": "Panoramic MultiView is part of the Panoramic Series for lobby and enterprise monitoring.",
+    "overview": "Panoramic MultiView combines wide field of view, multi-direction capture and digital ptz for practical deployment.",
+    "key_features": [
+      "Wide field of view",
+      "Multi-direction capture",
+      "Digital PTZ",
+      "High-density area coverage"
+    ],
+    "best_for": [
+      "Lobby",
+      "Open Office",
+      "Retail Floor",
+      "Public Space"
+    ],
+    "specs": {
+      "resolution": "6MP",
+      "connectivity": "Wi-Fi + Ethernet",
+      "environment": "Indoor",
+      "ai_features": [
+        "Line crossing",
+        "Person detection",
+        "Object left/removed"
+      ]
+    },
+    "faq_ids": [
+      29,
+      30
+    ],
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "slug": "panoramic-fisheye",
+    "name": "Panoramic Fisheye",
+    "series_slug": "panoramic",
+    "series_name": "Panoramic Series",
+    "short_description": "Panoramic Fisheye is part of the Panoramic Series for lobby and enterprise monitoring.",
+    "overview": "Panoramic Fisheye combines wide field of view, multi-direction capture and digital ptz for practical deployment.",
+    "key_features": [
+      "Wide field of view",
+      "Multi-direction capture",
+      "Digital PTZ",
+      "High-density area coverage"
+    ],
+    "best_for": [
+      "Lobby",
+      "Open Office",
+      "Retail Floor",
+      "Public Space"
+    ],
+    "specs": {
+      "resolution": "1080p",
+      "connectivity": "PoE",
+      "environment": "Indoor",
+      "ai_features": [
+        "Person detection",
+        "Intrusion detection",
+        "Object left/removed"
+      ]
+    },
+    "faq_ids": [
+      31,
+      32
+    ],
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "slug": "edge-box-e1",
+    "name": "Edge Box E1",
+    "series_slug": "edge",
+    "series_name": "Edge Series",
+    "short_description": "Edge Box E1 is part of the Edge Series for multi-site deployment and enterprise monitoring.",
+    "overview": "Edge Box E1 combines local ai inference, multi-camera support and rule-based events for practical deployment.",
+    "key_features": [
+      "Local AI inference",
+      "Multi-camera support",
+      "Rule-based events",
+      "REST API integration"
+    ],
+    "best_for": [
+      "Multi-site Deployment",
+      "Existing Camera Upgrade",
+      "Local AI Processing"
+    ],
+    "specs": {
+      "resolution": null,
+      "connectivity": "Ethernet",
+      "environment": "Outdoor",
+      "ai_features": [
+        "Line crossing",
+        "Object left/removed",
+        "Vehicle detection"
+      ]
+    },
+    "faq_ids": [
+      33,
+      34
+    ],
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "slug": "edge-box-e4",
+    "name": "Edge Box E4",
+    "series_slug": "edge",
+    "series_name": "Edge Series",
+    "short_description": "Edge Box E4 is part of the Edge Series for multi-site deployment and enterprise monitoring.",
+    "overview": "Edge Box E4 combines local ai inference, multi-camera support and rule-based events for practical deployment.",
+    "key_features": [
+      "Local AI inference",
+      "Multi-camera support",
+      "Rule-based events",
+      "REST API integration"
+    ],
+    "best_for": [
+      "Multi-site Deployment",
+      "Existing Camera Upgrade",
+      "Local AI Processing"
+    ],
+    "specs": {
+      "resolution": null,
+      "connectivity": "Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Vehicle detection",
+        "Intrusion detection",
+        "Line crossing"
+      ]
+    },
+    "faq_ids": [
+      35,
+      36
+    ],
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "slug": "edge-gateway-g2",
+    "name": "Edge Gateway G2",
+    "series_slug": "edge",
+    "series_name": "Edge Series",
+    "short_description": "Edge Gateway G2 is part of the Edge Series for multi-site deployment and enterprise monitoring.",
+    "overview": "Edge Gateway G2 combines local ai inference, multi-camera support and rule-based events for practical deployment.",
+    "key_features": [
+      "Local AI inference",
+      "Multi-camera support",
+      "Rule-based events",
+      "REST API integration"
+    ],
+    "best_for": [
+      "Multi-site Deployment",
+      "Existing Camera Upgrade",
+      "Local AI Processing"
+    ],
+    "specs": {
+      "resolution": null,
+      "connectivity": "PoE",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Vehicle detection",
+        "Object left/removed",
+        "Person detection"
+      ]
+    },
+    "faq_ids": [
+      37,
+      38
+    ],
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "slug": "edge-analytics-hub",
+    "name": "Edge Analytics Hub",
+    "series_slug": "edge",
+    "series_name": "Edge Series",
+    "short_description": "Edge Analytics Hub is part of the Edge Series for multi-site deployment and enterprise monitoring.",
+    "overview": "Edge Analytics Hub combines local ai inference, multi-camera support and rule-based events for practical deployment.",
+    "key_features": [
+      "Local AI inference",
+      "Multi-camera support",
+      "Rule-based events",
+      "REST API integration"
+    ],
+    "best_for": [
+      "Multi-site Deployment",
+      "Existing Camera Upgrade",
+      "Local AI Processing"
+    ],
+    "specs": {
+      "resolution": null,
+      "connectivity": "Ethernet",
+      "environment": "Indoor/Outdoor",
+      "ai_features": [
+        "Line crossing",
+        "Object left/removed",
+        "Person detection"
+      ]
+    },
+    "faq_ids": [
+      39,
+      40
+    ],
+    "status": "beta"
+  }
+]

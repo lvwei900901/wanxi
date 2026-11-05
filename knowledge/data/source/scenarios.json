@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "warehouse",
+    "name": "Warehouse",
+    "description": "Warehouse aisles, loading docks and restricted areas."
+  },
+  {
+    "id": 2,
+    "slug": "retail",
+    "name": "Retail",
+    "description": "Store entrances, checkout areas and loss prevention."
+  },
+  {
+    "id": 3,
+    "slug": "office",
+    "name": "Office",
+    "description": "Office buildings, lobbies and corridors."
+  },
+  {
+    "id": 4,
+    "slug": "perimeter",
+    "name": "Perimeter",
+    "description": "Outdoor boundaries and intrusion-sensitive zones."
+  },
+  {
+    "id": 5,
+    "slug": "industrial",
+    "name": "Industrial",
+    "description": "Factories, equipment monitoring and safety management."
+  },
+  {
+    "id": 6,
+    "slug": "small-business",
+    "name": "Small Business",
+    "description": "Simple deployments with low maintenance."
+  },
+  {
+    "id": 7,
+    "slug": "public-space",
+    "name": "Public Space",
+    "description": "Wide-area observation and crowd visibility."
+  },
+  {
+    "id": 8,
+    "slug": "multi-site",
+    "name": "Multi-site",
+    "description": "Centralized management across multiple locations."
+  }
+]

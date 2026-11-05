@@ -1,0 +1,233 @@
+// AsterVision 品牌产品知识中心 · Prisma Schema
+//
+// 与 db/schema.sql（= prisma/migrations/0_init/migration.sql）保持一一对应。
+// SQLite 的两处限制在这里显式体现：
+//  - 不支持 enum：status / scope / kind 用 String，取值约束由 DDL 的 CHECK + 应用层 DTO 双重保证；
+//  - 没有原生 JSON 类型：core_capabilities / extra_specs 存 String，服务层解析。
+// 时间列统一交给 Prisma 写入，避免手工拼 ISO 字符串与 @updatedAt 冲突。
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id               Int      @id @default(autoincrement())
+  slug             String   @unique
+  name             String
+  description      String?
+  website          String?
+  foundedYear      Int?     @map("founded_year")
+  headquarters     String?
+  coreCapabilities String   @default("[]") @map("core_capabilities")
+  logoUrl          String?  @map("logo_url")
+  ogImageUrl       String?  @map("og_image_url")
+  metaTitle        String?  @map("meta_title")
+  metaDescription  String?  @map("meta_description")
+  canonicalUrl     String?  @map("canonical_url")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  series   ProductSeries[]
+  products Product[]
+  faqs     Faq[]
+
+  @@map("brand")
+}
+
+model ProductSeries {
+  id               Int      @id @default(autoincrement())
+  brandId          Int      @map("brand_id")
+  slug             String
+  name             String
+  description      String?
+  sortOrder        Int      @default(0) @map("sort_order")
+  status           String   @default("active")
+  heroImageUrl     String?  @map("hero_image_url")
+  ogImageUrl       String?  @map("og_image_url")
+  metaTitle        String?  @map("meta_title")
+  metaDescription  String?  @map("meta_description")
+  canonicalUrl     String?  @map("canonical_url")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  brand    Brand     @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  products Product[]
+  faqs     Faq[]
+
+  @@unique([brandId, slug])
+  @@index([brandId, sortOrder])
+  @@map("product_series")
+}
+
+model Product {
+  id               Int       @id @default(autoincrement())
+  brandId          Int       @map("brand_id")
+  seriesId         Int       @map("series_id")
+  legacyId         Int?      @unique @map("legacy_id")
+  slug             String    @unique
+  name             String
+  shortDescription String?   @map("short_description")
+  overview         String?
+  resolution       String?
+  connectivity     String?
+  environment      String?
+  extraSpecs       String?   @map("extra_specs")
+  status           String    @default("active")
+  sortOrder        Int       @default(0) @map("sort_order")
+  imageUrl         String?   @map("image_url")
+  ogImageUrl       String?   @map("og_image_url")
+  metaTitle        String?   @map("meta_title")
+  metaDescription  String?   @map("meta_description")
+  canonicalUrl     String?   @map("canonical_url")
+  publishedAt      DateTime? @map("published_at")
+  createdAt        DateTime  @default(now()) @map("created_at")
+  updatedAt        DateTime  @updatedAt @map("updated_at")
+
+  brand     Brand             @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  series    ProductSeries     @relation(fields: [seriesId], references: [id], onDelete: Restrict)
+  features  ProductFeature[]
+  scenarios ProductScenario[]
+  faqs      Faq[]
+
+  @@index([seriesId, sortOrder])
+  @@index([brandId])
+  @@index([status])
+  @@map("product")
+}
+
+model Feature {
+  id         Int    @id @default(autoincrement())
+  slug       String @unique
+  name       String
+  kind       String @default("key")
+  category   String?
+  sortOrder  Int    @default(0) @map("sort_order")
+
+  products ProductFeature[]
+
+  @@index([kind, sortOrder])
+  @@map("feature")
+}
+
+model ProductFeature {
+  productId Int @map("product_id")
+  featureId Int @map("feature_id")
+  sortOrder Int @default(0) @map("sort_order")
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  feature Feature @relation(fields: [featureId], references: [id], onDelete: Cascade)
+
+  @@id([productId, featureId])
+  @@index([featureId])
+  @@map("product_feature")
+}
+
+model Scenario {
+  id               Int      @id @default(autoincrement())
+  slug             String   @unique
+  name             String
+  description      String?
+  isCanonical      Boolean  @default(true) @map("is_canonical")
+  sortOrder        Int      @default(0) @map("sort_order")
+  metaTitle        String?  @map("meta_title")
+  metaDescription  String?  @map("meta_description")
+  canonicalUrl     String?  @map("canonical_url")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  products ProductScenario[]
+  faqs     Faq[]
+
+  @@index([isCanonical, sortOrder])
+  @@map("scenario")
+}
+
+model ProductScenario {
+  productId  Int @map("product_id")
+  scenarioId Int @map("scenario_id")
+  sortOrder  Int @default(0) @map("sort_order")
+
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  scenario Scenario @relation(fields: [scenarioId], references: [id], onDelete: Cascade)
+
+  @@id([productId, scenarioId])
+  @@index([scenarioId])
+  @@map("product_scenario")
+}
+
+model Faq {
+  id             Int      @id @default(autoincrement())
+  legacyId       Int?     @unique @map("legacy_id")
+  brandId        Int      @map("brand_id")
+  productId      Int?     @map("product_id")
+  seriesId       Int?     @map("series_id")
+  scenarioId     Int?     @map("scenario_id")
+  scope          String   @default("product")
+  question       String
+  answer         String
+  answerSummary  String?  @map("answer_summary")
+  sortOrder      Int      @default(0) @map("sort_order")
+  isFeatured     Boolean  @default(false) @map("is_featured")
+  status         String   @default("published")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  brand    Brand          @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  product  Product?       @relation(fields: [productId], references: [id], onDelete: Cascade)
+  series   ProductSeries? @relation(fields: [seriesId], references: [id], onDelete: SetNull)
+  scenario Scenario?      @relation(fields: [scenarioId], references: [id], onDelete: SetNull)
+
+  @@index([productId, sortOrder])
+  @@index([brandId, scope])
+  @@map("faq")
+}
+
+// 多态引用，不建物理外键：重建索引时按版本整体替换，不做级联删除。
+// embedding 为 Float32 小端 BLOB：2048 × 4 = 8192 字节/条。
+model KnowledgeChunk {
+  id              Int      @id @default(autoincrement())
+  externalId      String   @map("external_id")
+  sourceType      String   @map("source_type")
+  sourceId        Int?     @map("source_id")
+  chunkIndex      Int      @default(0) @map("chunk_index")
+  heading         String?
+  content         String
+  urlPath         String?  @map("url_path")
+  embedding       Bytes
+  model           String
+  dimensions      Int
+  contentHash     String   @map("content_hash")
+  indexVersion    Int      @map("index_version")
+  templateVersion Int      @map("template_version")
+  builtAt         DateTime @map("built_at")
+
+  // 唯一性必须带版本号：同一逻辑块要能同时存在于 active 与上一版中（回滚用）
+  @@unique([indexVersion, sourceType, sourceId, chunkIndex])
+  @@index([sourceType, sourceId])
+  @@index([indexVersion])
+  @@map("knowledge_chunk")
+}
+
+model EmbeddingIndex {
+  id              Int       @id @default(autoincrement())
+  model           String
+  dimensions      Int
+  chunkSize       Int       @map("chunk_size")
+  documentCount   Int       @map("document_count")
+  chunkCount      Int       @map("chunk_count")
+  templateVersion Int       @default(1) @map("template_version")
+  status          String    @default("active")
+  builtAt         DateTime  @map("built_at")
+  activatedAt     DateTime? @map("activated_at")
+  sourceFile      String    @map("source_file")
+  sourceHash      String    @map("source_hash")
+  createdAt       DateTime  @default(now()) @map("created_at")
+
+  @@index([status, id])
+  @@map("embedding_index")
+}

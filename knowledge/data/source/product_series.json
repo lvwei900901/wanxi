@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "nova",
+    "name": "Nova Series",
+    "description": "AI-enabled network cameras for enterprise deployments."
+  },
+  {
+    "slug": "thermal",
+    "name": "Thermal Series",
+    "description": "Thermal imaging products for perimeter and industrial monitoring."
+  },
+  {
+    "slug": "lite",
+    "name": "Lite Series",
+    "description": "Easy-to-deploy cameras for small and medium businesses."
+  },
+  {
+    "slug": "panoramic",
+    "name": "Panoramic Series",
+    "description": "Wide-area cameras for open spaces and multi-direction monitoring."
+  },
+  {
+    "slug": "edge",
+    "name": "Edge Series",
+    "description": "Edge AI devices for local analytics and event processing."
+  }
+]

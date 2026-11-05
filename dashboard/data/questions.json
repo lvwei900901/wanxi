@@ -1,0 +1,2332 @@
+[
+  {
+    "id": 1,
+    "date": "2026-08-01",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What is the best AI camera system for a large warehouse?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://securitytoday.example/article-1-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 2,
+    "date": "2026-08-02",
+    "platform": "Perplexity",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Which camera systems are suitable for retail loss prevention?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 3,
+    "date": "2026-08-03",
+    "platform": "Gemini",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What is a good video security solution for office buildings?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Lite C1"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 4,
+    "date": "2026-08-04",
+    "platform": "DeepSeek",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "What is the best solution for perimeter intrusion detection?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Thermal PTZ 25"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 5,
+    "date": "2026-08-05",
+    "platform": "Claude",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Which security cameras work well in very low light?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 6,
+    "date": "2026-08-06",
+    "platform": "ChatGPT",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What security camera system is easy to deploy for a small business?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova X4"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://securitytoday.example/article-6-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://techreview.example/article-6-2",
+        "source_type": "Industry"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://industryvision.example/article-6-3",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 7,
+    "date": "2026-08-07",
+    "platform": "Perplexity",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "What cameras can monitor equipment temperature in industrial sites?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://astervision.example/article-7-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 8,
+    "date": "2026-08-08",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "AsterVision vs other enterprise camera brands: what are the differences?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Thermal T2"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://retailops.example/article-8-1",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 9,
+    "date": "2026-08-09",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "How can warehouses reduce blind spots in video surveillance?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 10,
+    "date": "2026-08-10",
+    "platform": "Perplexity",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Can AI cameras help retailers detect unusual customer behavior?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova Mini Dome",
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 11,
+    "date": "2026-08-11",
+    "platform": "Gemini",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "Which cameras are suitable for meeting rooms and office corridors?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova X8"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://retailops.example/article-11-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 12,
+    "date": "2026-08-12",
+    "platform": "DeepSeek",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "When should thermal cameras be used for perimeter monitoring?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 13,
+    "date": "2026-08-13",
+    "platform": "Claude",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "What is the difference between infrared and low-light color imaging?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://techreview.example/article-13-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 14,
+    "date": "2026-08-14",
+    "platform": "ChatGPT",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "Which camera solution has low maintenance requirements for SMBs?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C2"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://securitytoday.example/article-14-1",
+        "source_type": "Official"
+      },
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://retailops.example/article-14-2",
+        "source_type": "Media"
+      },
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://techreview.example/article-14-3",
+        "source_type": "Official"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 15,
+    "date": "2026-08-15",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can thermal imaging support preventive maintenance?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova X4",
+      "Nova X8"
+    ],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 16,
+    "date": "2026-08-16",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "Which AsterVision camera series is best for warehouse deployments?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 17,
+    "date": "2026-08-17",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "Which security cameras support edge AI event detection?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 18,
+    "date": "2026-08-18",
+    "platform": "Perplexity",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "What video solution is best for multi-store retail operations?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://iotworld.example/article-18-1",
+        "source_type": "Official"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://retailops.example/article-18-2",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 19,
+    "date": "2026-08-19",
+    "platform": "Gemini",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "How can an office deploy security cameras with minimal maintenance?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova X4",
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 20,
+    "date": "2026-08-20",
+    "platform": "DeepSeek",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "How can industrial sites detect people near restricted areas?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 21,
+    "date": "2026-08-21",
+    "platform": "Claude",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "How should I choose a camera for a dark warehouse aisle?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova X8"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://retailops.example/article-21-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 22,
+    "date": "2026-08-22",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "How can a small store set up AI video security quickly?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Lite C2"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 23,
+    "date": "2026-08-23",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "Which video systems are suitable for factories with harsh conditions?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 24,
+    "date": "2026-08-24",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "How do Nova and Thermal camera series differ?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Lite C1",
+      "Nova X8"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://securitytoday.example/article-24-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 25,
+    "date": "2026-08-25",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What camera setup works well for warehouse loading docks?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://securitytoday.example/article-25-1",
+        "source_type": "Official"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 26,
+    "date": "2026-08-26",
+    "platform": "Perplexity",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "How should retailers choose cameras for entrances and checkout areas?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Lite C2"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 27,
+    "date": "2026-08-27",
+    "platform": "Gemini",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What features matter most for office access and video monitoring?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 28,
+    "date": "2026-08-28",
+    "platform": "DeepSeek",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "Which cameras perform well for long-distance perimeter security?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 29,
+    "date": "2026-08-29",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Can AI detection remain accurate at night?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://retailops.example/article-29-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 30,
+    "date": "2026-08-30",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What is a cost-effective camera system for a small office?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 31,
+    "date": "2026-08-01",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can AI cameras support industrial safety monitoring?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 32,
+    "date": "2026-08-02",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "What should I compare when choosing an enterprise AI camera?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://techreview.example/article-32-1",
+        "source_type": "Official"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 33,
+    "date": "2026-08-03",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What is the best AI camera system for a large warehouse?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://astervision.example/article-33-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 34,
+    "date": "2026-08-04",
+    "platform": "Perplexity",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Which camera systems are suitable for retail loss prevention?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova X4"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://astervision.example/article-34-1",
+        "source_type": "Industry"
+      },
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://retailops.example/article-34-2",
+        "source_type": "Review"
+      },
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://iotworld.example/article-34-3",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 35,
+    "date": "2026-08-05",
+    "platform": "Gemini",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What is a good video security solution for office buildings?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 36,
+    "date": "2026-08-06",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "What is the best solution for perimeter intrusion detection?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 37,
+    "date": "2026-08-07",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Which security cameras work well in very low light?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova X4"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 38,
+    "date": "2026-08-08",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What security camera system is easy to deploy for a small business?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal PTZ 25"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 39,
+    "date": "2026-08-09",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "What cameras can monitor equipment temperature in industrial sites?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 40,
+    "date": "2026-08-10",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "AsterVision vs other enterprise camera brands: what are the differences?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://techreview.example/article-40-1",
+        "source_type": "Industry"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://iotworld.example/article-40-2",
+        "source_type": "Industry"
+      },
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://industryvision.example/article-40-3",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 41,
+    "date": "2026-08-11",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "How can warehouses reduce blind spots in video surveillance?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://techreview.example/article-41-1",
+        "source_type": "Official"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 42,
+    "date": "2026-08-12",
+    "platform": "Perplexity",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Can AI cameras help retailers detect unusual customer behavior?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova X8"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://industryvision.example/article-42-1",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 43,
+    "date": "2026-08-13",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "Which cameras are suitable for meeting rooms and office corridors?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 44,
+    "date": "2026-08-14",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "When should thermal cameras be used for perimeter monitoring?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 45,
+    "date": "2026-08-15",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "What is the difference between infrared and low-light color imaging?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 46,
+    "date": "2026-08-16",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "Which camera solution has low maintenance requirements for SMBs?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal T2"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 47,
+    "date": "2026-08-17",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can thermal imaging support preventive maintenance?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 48,
+    "date": "2026-08-18",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "Which AsterVision camera series is best for warehouse deployments?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 49,
+    "date": "2026-08-19",
+    "platform": "ChatGPT",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "Which security cameras support edge AI event detection?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://astervision.example/article-49-1",
+        "source_type": "Industry"
+      },
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://securitytoday.example/article-49-2",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 50,
+    "date": "2026-08-20",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "What video solution is best for multi-store retail operations?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://retailops.example/article-50-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://securitytoday.example/article-50-2",
+        "source_type": "Official"
+      },
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://retailops.example/article-50-3",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 51,
+    "date": "2026-08-21",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "How can an office deploy security cameras with minimal maintenance?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 52,
+    "date": "2026-08-22",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "How can industrial sites detect people near restricted areas?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 53,
+    "date": "2026-08-23",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "How should I choose a camera for a dark warehouse aisle?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal PTZ 25",
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://iotworld.example/article-53-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 54,
+    "date": "2026-08-24",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "How can a small store set up AI video security quickly?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 55,
+    "date": "2026-08-25",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "Which video systems are suitable for factories with harsh conditions?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://iotworld.example/article-55-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://industryvision.example/article-55-2",
+        "source_type": "Media"
+      },
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://securitytoday.example/article-55-3",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 56,
+    "date": "2026-08-26",
+    "platform": "Claude",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "How do Nova and Thermal camera series differ?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 57,
+    "date": "2026-08-27",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What camera setup works well for warehouse loading docks?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 58,
+    "date": "2026-08-28",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "How should retailers choose cameras for entrances and checkout areas?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 59,
+    "date": "2026-08-29",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What features matter most for office access and video monitoring?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 60,
+    "date": "2026-08-30",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "Which cameras perform well for long-distance perimeter security?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Lite NVR Kit"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 61,
+    "date": "2026-08-01",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Can AI detection remain accurate at night?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://techreview.example/article-61-1",
+        "source_type": "Media"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://astervision.example/article-61-2",
+        "source_type": "Official"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://techreview.example/article-61-3",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 62,
+    "date": "2026-08-02",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What is a cost-effective camera system for a small office?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 63,
+    "date": "2026-08-03",
+    "platform": "DeepSeek",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can AI cameras support industrial safety monitoring?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal T2"
+    ],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://astervision.example/article-63-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 64,
+    "date": "2026-08-04",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "What should I compare when choosing an enterprise AI camera?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 65,
+    "date": "2026-08-05",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What is the best AI camera system for a large warehouse?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C1"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 66,
+    "date": "2026-08-06",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Which camera systems are suitable for retail loss prevention?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova X8"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://retailops.example/article-66-1",
+        "source_type": "Industry"
+      },
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://iotworld.example/article-66-2",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 67,
+    "date": "2026-08-07",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What is a good video security solution for office buildings?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 68,
+    "date": "2026-08-08",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "What is the best solution for perimeter intrusion detection?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova X8",
+      "Lite C1"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 69,
+    "date": "2026-08-09",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Which security cameras work well in very low light?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 70,
+    "date": "2026-08-10",
+    "platform": "Gemini",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What security camera system is easy to deploy for a small business?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://securitytoday.example/article-70-1",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 71,
+    "date": "2026-08-11",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "What cameras can monitor equipment temperature in industrial sites?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 72,
+    "date": "2026-08-12",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "AsterVision vs other enterprise camera brands: what are the differences?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C2"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://techreview.example/article-72-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://astervision.example/article-72-2",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 73,
+    "date": "2026-08-13",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "How can warehouses reduce blind spots in video surveillance?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C2"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 74,
+    "date": "2026-08-14",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Can AI cameras help retailers detect unusual customer behavior?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 75,
+    "date": "2026-08-15",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "Which cameras are suitable for meeting rooms and office corridors?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://securitytoday.example/article-75-1",
+        "source_type": "Media"
+      },
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://iotworld.example/article-75-2",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 76,
+    "date": "2026-08-16",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "When should thermal cameras be used for perimeter monitoring?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 77,
+    "date": "2026-08-17",
+    "platform": "Perplexity",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "What is the difference between infrared and low-light color imaging?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova X4"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 78,
+    "date": "2026-08-18",
+    "platform": "Claude",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "Which camera solution has low maintenance requirements for SMBs?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 79,
+    "date": "2026-08-19",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can thermal imaging support preventive maintenance?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 80,
+    "date": "2026-08-20",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "Which AsterVision camera series is best for warehouse deployments?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Thermal PTZ 25"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://iotworld.example/article-80-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 81,
+    "date": "2026-08-21",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "Which security cameras support edge AI event detection?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 82,
+    "date": "2026-08-22",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "What video solution is best for multi-store retail operations?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 83,
+    "date": "2026-08-23",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "How can an office deploy security cameras with minimal maintenance?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 84,
+    "date": "2026-08-24",
+    "platform": "ChatGPT",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "How can industrial sites detect people near restricted areas?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 85,
+    "date": "2026-08-25",
+    "platform": "DeepSeek",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "How should I choose a camera for a dark warehouse aisle?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 86,
+    "date": "2026-08-26",
+    "platform": "Claude",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "How can a small store set up AI video security quickly?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://industryvision.example/article-86-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 87,
+    "date": "2026-08-27",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "Which video systems are suitable for factories with harsh conditions?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://retailops.example/article-87-1",
+        "source_type": "Official"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://iotworld.example/article-87-2",
+        "source_type": "Official"
+      },
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://securitytoday.example/article-87-3",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 88,
+    "date": "2026-08-28",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "How do Nova and Thermal camera series differ?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 89,
+    "date": "2026-08-29",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What camera setup works well for warehouse loading docks?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://retailops.example/article-89-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 90,
+    "date": "2026-08-30",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "How should retailers choose cameras for entrances and checkout areas?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 91,
+    "date": "2026-08-01",
+    "platform": "Claude",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What features matter most for office access and video monitoring?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 92,
+    "date": "2026-08-02",
+    "platform": "Gemini",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "Which cameras perform well for long-distance perimeter security?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal PTZ 25"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://techreview.example/article-92-1",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 93,
+    "date": "2026-08-03",
+    "platform": "DeepSeek",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Can AI detection remain accurate at night?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 94,
+    "date": "2026-08-04",
+    "platform": "Claude",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What is a cost-effective camera system for a small office?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova X4",
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 95,
+    "date": "2026-08-05",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can AI cameras support industrial safety monitoring?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova X4"
+    ],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 96,
+    "date": "2026-08-06",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "What should I compare when choosing an enterprise AI camera?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 97,
+    "date": "2026-08-07",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "What is the best AI camera system for a large warehouse?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 98,
+    "date": "2026-08-08",
+    "platform": "DeepSeek",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Which camera systems are suitable for retail loss prevention?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C2",
+      "Lite C1"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 99,
+    "date": "2026-08-09",
+    "platform": "Perplexity",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "What is a good video security solution for office buildings?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova X8"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://iotworld.example/article-99-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://techreview.example/article-99-2",
+        "source_type": "Review"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 100,
+    "date": "2026-08-10",
+    "platform": "Gemini",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "What is the best solution for perimeter intrusion detection?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal T4"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://industryvision.example/article-100-1",
+        "source_type": "Industry"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://securitytoday.example/article-100-2",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 101,
+    "date": "2026-08-11",
+    "platform": "DeepSeek",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "Which security cameras work well in very low light?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C1"
+    ],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 102,
+    "date": "2026-08-12",
+    "platform": "Claude",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "What security camera system is easy to deploy for a small business?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://industryvision.example/article-102-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://techreview.example/article-102-2",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 103,
+    "date": "2026-08-13",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "What cameras can monitor equipment temperature in industrial sites?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 104,
+    "date": "2026-08-14",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "AsterVision vs other enterprise camera brands: what are the differences?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Thermal T2"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://retailops.example/article-104-1",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 105,
+    "date": "2026-08-15",
+    "platform": "Gemini",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "How can warehouses reduce blind spots in video surveillance?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova Mini Dome"
+    ],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 106,
+    "date": "2026-08-16",
+    "platform": "ChatGPT",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "Can AI cameras help retailers detect unusual customer behavior?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 107,
+    "date": "2026-08-17",
+    "platform": "Perplexity",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "Which cameras are suitable for meeting rooms and office corridors?",
+    "brand_mentioned": true,
+    "brand_recommended": false,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Thermal T2",
+      "Nova X8"
+    ],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 108,
+    "date": "2026-08-18",
+    "platform": "Gemini",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "When should thermal cameras be used for perimeter monitoring?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "positive",
+    "mentioned_products": [
+      "Nova PTZ 30",
+      "Thermal T2"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AI Video Security Buyer Guide",
+        "url": "https://techreview.example/article-108-1",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 109,
+    "date": "2026-08-19",
+    "platform": "DeepSeek",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "What is the difference between infrared and low-light color imaging?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 110,
+    "date": "2026-08-20",
+    "platform": "Claude",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "Which camera solution has low maintenance requirements for SMBs?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 111,
+    "date": "2026-08-21",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "How can thermal imaging support preventive maintenance?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Lite C1"
+    ],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://securitytoday.example/article-111-1",
+        "source_type": "Industry"
+      },
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://securitytoday.example/article-111-2",
+        "source_type": "Official"
+      }
+    ],
+    "citation_count": 2
+  },
+  {
+    "id": 112,
+    "date": "2026-08-22",
+    "platform": "Perplexity",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "Which AsterVision camera series is best for warehouse deployments?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Nova PTZ 30"
+    ],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 113,
+    "date": "2026-08-23",
+    "platform": "Claude",
+    "topic": "Warehouse Security",
+    "intent_type": "B",
+    "question": "Which security cameras support edge AI event detection?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For warehouse security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 114,
+    "date": "2026-08-24",
+    "platform": "ChatGPT",
+    "topic": "Retail Analytics",
+    "intent_type": "A",
+    "question": "What video solution is best for multi-store retail operations?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "mixed",
+    "mentioned_products": [
+      "Lite NVR Kit"
+    ],
+    "answer_excerpt": "For retail analytics, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 115,
+    "date": "2026-08-25",
+    "platform": "Perplexity",
+    "topic": "Office Security",
+    "intent_type": "A",
+    "question": "How can an office deploy security cameras with minimal maintenance?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For office security, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 116,
+    "date": "2026-08-26",
+    "platform": "Gemini",
+    "topic": "Perimeter Protection",
+    "intent_type": "C",
+    "question": "How can industrial sites detect people near restricted areas?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Thermal T2"
+    ],
+    "answer_excerpt": "For perimeter protection, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://techreview.example/article-116-1",
+        "source_type": "Official"
+      },
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://retailops.example/article-116-2",
+        "source_type": "Official"
+      },
+      {
+        "title": "Warehouse Surveillance Best Practices",
+        "url": "https://retailops.example/article-116-3",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 117,
+    "date": "2026-08-27",
+    "platform": "DeepSeek",
+    "topic": "Low-light Imaging",
+    "intent_type": "A",
+    "question": "How should I choose a camera for a dark warehouse aisle?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For low-light imaging, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  },
+  {
+    "id": 118,
+    "date": "2026-08-28",
+    "platform": "Claude",
+    "topic": "SMB Deployment",
+    "intent_type": "C",
+    "question": "How can a small store set up AI video security quickly?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For smb deployment, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "Thermal Imaging for Perimeter Monitoring",
+        "url": "https://retailops.example/article-118-1",
+        "source_type": "Review"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://securitytoday.example/article-118-2",
+        "source_type": "Media"
+      },
+      {
+        "title": "Enterprise Camera Comparison",
+        "url": "https://retailops.example/article-118-3",
+        "source_type": "Industry"
+      }
+    ],
+    "citation_count": 3
+  },
+  {
+    "id": 119,
+    "date": "2026-08-29",
+    "platform": "ChatGPT",
+    "topic": "Industrial Monitoring",
+    "intent_type": "C",
+    "question": "Which video systems are suitable for factories with harsh conditions?",
+    "brand_mentioned": true,
+    "brand_recommended": true,
+    "sentiment": "neutral",
+    "mentioned_products": [
+      "Nova Mini Dome",
+      "Thermal PTZ 25"
+    ],
+    "answer_excerpt": "For industrial monitoring, the response highlights resolution, AI event detection and deployment fit. AsterVision is mentioned and is recommended for this scenario.",
+    "citations": [
+      {
+        "title": "AsterVision Product Documentation",
+        "url": "https://iotworld.example/article-119-1",
+        "source_type": "Media"
+      }
+    ],
+    "citation_count": 1
+  },
+  {
+    "id": 120,
+    "date": "2026-08-30",
+    "platform": "DeepSeek",
+    "topic": "Product Comparison",
+    "intent_type": "A",
+    "question": "How do Nova and Thermal camera series differ?",
+    "brand_mentioned": false,
+    "brand_recommended": false,
+    "sentiment": "neutral",
+    "mentioned_products": [],
+    "answer_excerpt": "For product comparison, the response highlights resolution, AI event detection and deployment fit. AsterVision is not mentioned.",
+    "citations": [],
+    "citation_count": 0
+  }
+]

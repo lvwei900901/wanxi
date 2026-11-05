@@ -1,0 +1,415 @@
+/* Tailwind v4：只引 theme 与 utilities，跳过 preflight。
+   preflight 会重置 button/input 的背景与边框，和 antd 的组件样式直接冲突；
+   内容站不需要全局 reset，这里的取舍是「保住 antd 的视觉基线」。 */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* ---------------------------------------------------------------------------
+   设计语言：工程规格书（engineering datasheet）
+   暖白纸感底、墨黑字、发丝线、等宽标签与数字。所有颜色用 oklch 表达，
+   中性色统一偏暖（色相 60–85），避免出现灰蓝调的「后台模板感」。
+   唯一的强调色是 oxide（氧化红棕），当作仪器上的标记色用——只在
+   可交互、当前状态、和需要指认的位置出现，绝不做大面积背景。
+--------------------------------------------------------------------------- */
+@theme {
+  --font-sans: "IBM Plex Sans Variable", ui-sans-serif, -apple-system, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-paper: oklch(0.973 0.005 85);
+  --color-paper-2: oklch(0.955 0.007 85);
+  --color-paper-3: oklch(0.928 0.009 82);
+  --color-ink: oklch(0.208 0.012 60);
+  --color-ink-2: oklch(0.425 0.011 60);
+  --color-ink-3: oklch(0.605 0.011 62);
+  --color-rule: oklch(0.884 0.008 78);
+  --color-rule-2: oklch(0.808 0.011 76);
+  --color-signal: oklch(0.556 0.158 38);
+  --color-signal-deep: oklch(0.452 0.132 36);
+  --color-signal-wash: oklch(0.953 0.026 45);
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@layer base {
+  :root {
+    --gutter: 3.25rem;
+    --measure: 68ch;
+    --ease: cubic-bezier(0.25, 1, 0.5, 1);
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    /* 详情页锚点跳转时不要被 sticky header 盖住 */
+    scroll-padding-top: 5.5rem;
+  }
+
+  /* preflight 里最不能省的两条：border-box 与 body 外边距。
+     少了 border-box，任何「100% 宽 + 左右内边距」的容器都会比视口宽出一个 padding，
+     在手机上直接表现为整页横向溢出。 */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-signal);
+    color: oklch(0.99 0 0);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-signal);
+    outline-offset: 2px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* 跳过 preflight 的代价：原生列表和表单控件会带着 UA 样式进来
+     （圆点、按钮边框、textarea 内阴影）。这里只补设计真正需要的那几条，
+     不做完整 reset——antd 的组件样式仍然按它自己的基线走。 */
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: inherit;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  textarea,
+  input {
+    font: inherit;
+    color: inherit;
+    border: 0;
+    background: none;
+  }
+
+  summary {
+    display: block;
+  }
+
+  /* 标题与段落的 UA 外边距：全站的节奏由 flex gap 控制，
+     留着 0.67em/1em 的默认 margin 会让每个标题下方都多出一段不属于设计的空白 */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  dl,
+  dd,
+  figure,
+  blockquote {
+    margin: 0;
+  }
+
+  /* 数字一律等宽对齐：规格表里这比任何装饰都重要 */
+  table,
+  dl,
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* 微标签：等宽 + 大写 + 大字距。全站的信息骨架都由它标出来 */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.6563rem;
+    line-height: 1.4;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: var(--color-ink-3);
+  }
+
+  .label-ink {
+    color: var(--color-ink-2);
+  }
+
+  .code {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.035em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .prose-measure {
+    max-width: var(--measure);
+  }
+
+  /* 统一的内容栏宽：所有页面共用一条左边线，规格书的「纸面」才不会歪 */
+  .shell {
+    margin-inline: auto;
+    width: 100%;
+    /* flex 列方向下 min-width 默认 auto，一个过宽的头部会把整页撑宽；
+       显式置 0 让 .shell 始终服从视口，溢出只发生在它内部 */
+    min-width: 0;
+    max-width: 76rem;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 1024px) {
+    .shell {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* 章节编号：01 / 02 —— 规格书的分节感来自这一列 */
+  .sec-no {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    color: var(--color-signal-deep);
+  }
+
+  /* 点线引导：标签 ←……→ 值，规格表的基本单元 */
+  .leader {
+    flex: 1 1 auto;
+    min-width: 1rem;
+    align-self: center;
+    border-bottom: 1px dotted var(--color-rule-2);
+    translate: 0 -1px;
+  }
+
+  /* 四角刻度：仪器面板的定位角标，只在少数关键面板上出现 */
+  .tick-frame {
+    position: relative;
+  }
+  .tick-frame::before,
+  .tick-frame::after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-color: var(--color-ink);
+    opacity: 0.28;
+    pointer-events: none;
+  }
+  .tick-frame::before {
+    top: -1px;
+    left: -1px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+  }
+  .tick-frame::after {
+    right: -1px;
+    bottom: -1px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+  }
+
+  /* 主按钮：方角、墨底、悬停时右侧箭头推进 */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    border: 1px solid var(--color-ink);
+    padding: 0.72rem 1.05rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-paper);
+    background-color: var(--color-ink);
+    transition:
+      background-color 200ms var(--ease),
+      color 200ms var(--ease),
+      border-color 200ms var(--ease);
+  }
+  .btn:hover {
+    background-color: var(--color-signal-deep);
+    border-color: var(--color-signal-deep);
+  }
+  .btn:disabled,
+  .btn[aria-disabled='true'] {
+    border-color: var(--color-rule-2);
+    background-color: var(--color-paper-3);
+    color: var(--color-ink-3);
+  }
+  .btn .arrow {
+    transition: translate 220ms var(--ease);
+  }
+  .btn:hover .arrow {
+    translate: 3px 0;
+  }
+
+  .btn-ghost {
+    color: var(--color-ink);
+    background-color: transparent;
+    border-color: var(--color-rule-2);
+  }
+  .btn-ghost:hover {
+    background-color: transparent;
+    border-color: var(--color-ink);
+    color: var(--color-ink);
+  }
+
+  /* 状态徽标：不用圆角药丸，用方框 + 等宽字，像贴在设备上的标签 */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--color-rule-2);
+    padding: 0.15rem 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-ink-2);
+    white-space: nowrap;
+  }
+  .badge-signal {
+    border-color: var(--color-signal);
+    color: var(--color-signal-deep);
+  }
+
+  /* 索引行：列表页的主结构。悬停时左侧长出一条 oxide 短线 */
+  .index-row {
+    position: relative;
+    transition: background-color 220ms var(--ease);
+  }
+  .index-row::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background-color: var(--color-signal);
+    scale: 1 0;
+    transform-origin: top;
+    transition: scale 240ms var(--ease);
+  }
+  .index-row:hover::before,
+  .index-row:focus-visible::before {
+    scale: 1 1;
+  }
+  .index-row:hover {
+    background-color: color-mix(in oklab, var(--color-signal-wash) 55%, transparent);
+  }
+  .index-row .row-arrow {
+    transition: translate 220ms var(--ease);
+  }
+  .index-row:hover .row-arrow {
+    translate: 3px 0;
+  }
+
+  /* 提示条：替代默认 Alert 的方角版本，用左侧色条指示严重程度 */
+  .notice {
+    display: flex;
+    gap: 0.85rem;
+    border: 1px solid var(--color-rule-2);
+    border-left-width: 3px;
+    padding: 0.9rem 1rem;
+    background-color: var(--color-paper-2);
+  }
+  .notice-warn {
+    border-left-color: var(--color-signal);
+  }
+  .notice-info {
+    border-left-color: var(--color-rule-2);
+  }
+
+  /* 页头入场：只有首屏一次，极轻 */
+  .rise {
+    animation: rise 520ms var(--ease) both;
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      translate: 0 8px;
+    }
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+
+  /* 纸质颗粒：固定覆盖，几乎不可见，但去掉后底色会显得「电子」 */
+  .grain {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* 打印：规格书本来就该能被打印。去掉导航/颗粒，展开所有 FAQ，避免分节被切断 */
+@media print {
+  .grain,
+  .site-header,
+  .site-footer,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  main {
+    padding-block: 0 !important;
+    max-width: none !important;
+  }
+
+  .shell {
+    max-width: none;
+    padding-inline: 0;
+  }
+
+  section,
+  details {
+    break-inside: avoid;
+  }
+
+  a[href^='/']::after {
+    content: ' (' attr(href) ')';
+    font-family: var(--font-mono);
+    font-size: 0.75em;
+    color: #555;
+  }
+}

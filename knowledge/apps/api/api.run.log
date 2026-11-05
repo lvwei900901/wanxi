@@ -1,0 +1,36 @@
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigLoadedModule dependencies initialized[39m[38;5;3m +42ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGlmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSearchModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHealthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mContentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mIndexModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mContentController {/api/v1}:[39m[38;5;3m +38ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/brand, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/stats, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/series, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/series/:slug, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/scenarios, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/scenarios/:slug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/faqs, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/sitemap, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/v1/products}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/products, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/products/:slug, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mRagController {/api/v1/ask}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/ask, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mIndexController {/api/v1/index}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/index, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/index/reindex, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1/health}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[PrismaService] [39m[32m已连接 /Users/lvwei/WorkBuddy/wanxi_knowledge/data/knowledge.db[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[SearchService] [39m[32m已载入索引 v1：94 块 × 2048 维[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 32399  - [39m11/04/2026, 11:00:59 PM [32m    LOG[39m [38;5;3m[Bootstrap] [39m[32mAPI 就绪 http://127.0.0.1:3001/api/v1 · 文档 http://127.0.0.1:3001/docs[39m

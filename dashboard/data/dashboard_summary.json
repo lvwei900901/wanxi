@@ -1,0 +1,285 @@
+{
+  "brand": "AsterVision",
+  "period": "2026-08-01~2026-08-30",
+  "summary": {
+    "visibility_score": 71,
+    "mentions": 85,
+    "recommendations": 56,
+    "citations": 71,
+    "questions_analyzed": 120
+  },
+  "platforms": [
+    {
+      "name": "ChatGPT",
+      "visibility": 76,
+      "mentions": 19,
+      "recommendations": 13,
+      "citations": 18,
+      "question_count": 25
+    },
+    {
+      "name": "Gemini",
+      "visibility": 87,
+      "mentions": 20,
+      "recommendations": 12,
+      "citations": 10,
+      "question_count": 23
+    },
+    {
+      "name": "Claude",
+      "visibility": 62,
+      "mentions": 15,
+      "recommendations": 10,
+      "citations": 16,
+      "question_count": 24
+    },
+    {
+      "name": "Perplexity",
+      "visibility": 83,
+      "mentions": 20,
+      "recommendations": 15,
+      "citations": 18,
+      "question_count": 24
+    },
+    {
+      "name": "DeepSeek",
+      "visibility": 46,
+      "mentions": 11,
+      "recommendations": 6,
+      "citations": 9,
+      "question_count": 24
+    }
+  ],
+  "trend": [
+    {
+      "date": "2026-08-01",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-02",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-03",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-04",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-05",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-06",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-07",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-08",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 4
+    },
+    {
+      "date": "2026-08-09",
+      "visibility": 25,
+      "mentions": 1,
+      "recommendations": 0
+    },
+    {
+      "date": "2026-08-10",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-11",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-12",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-13",
+      "visibility": 50,
+      "mentions": 2,
+      "recommendations": 0
+    },
+    {
+      "date": "2026-08-14",
+      "visibility": 50,
+      "mentions": 2,
+      "recommendations": 1
+    },
+    {
+      "date": "2026-08-15",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-16",
+      "visibility": 25,
+      "mentions": 1,
+      "recommendations": 0
+    },
+    {
+      "date": "2026-08-17",
+      "visibility": 50,
+      "mentions": 2,
+      "recommendations": 1
+    },
+    {
+      "date": "2026-08-18",
+      "visibility": 50,
+      "mentions": 2,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-19",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-20",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-21",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-22",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-23",
+      "visibility": 25,
+      "mentions": 1,
+      "recommendations": 1
+    },
+    {
+      "date": "2026-08-24",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 2
+    },
+    {
+      "date": "2026-08-25",
+      "visibility": 50,
+      "mentions": 2,
+      "recommendations": 1
+    },
+    {
+      "date": "2026-08-26",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-27",
+      "visibility": 50,
+      "mentions": 2,
+      "recommendations": 0
+    },
+    {
+      "date": "2026-08-28",
+      "visibility": 25,
+      "mentions": 1,
+      "recommendations": 1
+    },
+    {
+      "date": "2026-08-29",
+      "visibility": 100,
+      "mentions": 4,
+      "recommendations": 3
+    },
+    {
+      "date": "2026-08-30",
+      "visibility": 75,
+      "mentions": 3,
+      "recommendations": 2
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Warehouse Security",
+      "questions": 15,
+      "visibility": 80,
+      "recommendations": 9
+    },
+    {
+      "topic": "Retail Analytics",
+      "questions": 15,
+      "visibility": 73,
+      "recommendations": 10
+    },
+    {
+      "topic": "Office Security",
+      "questions": 15,
+      "visibility": 53,
+      "recommendations": 4
+    },
+    {
+      "topic": "Perimeter Protection",
+      "questions": 15,
+      "visibility": 73,
+      "recommendations": 6
+    },
+    {
+      "topic": "Low-light Imaging",
+      "questions": 15,
+      "visibility": 67,
+      "recommendations": 6
+    },
+    {
+      "topic": "SMB Deployment",
+      "questions": 15,
+      "visibility": 80,
+      "recommendations": 7
+    },
+    {
+      "topic": "Industrial Monitoring",
+      "questions": 15,
+      "visibility": 73,
+      "recommendations": 6
+    },
+    {
+      "topic": "Product Comparison",
+      "questions": 15,
+      "visibility": 67,
+      "recommendations": 8
+    }
+  ]
+}

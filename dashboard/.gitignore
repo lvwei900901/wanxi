@@ -1,0 +1,17 @@
+.workbuddy/
+node_modules/
+dist/
+*.log
+
+# 本地走查/构建残留（截图、临时目录等），可随时删除
+web/.leftover/
+
+# SQLite 数据库文件（由 prisma migrate + seed 生成）
+server/prisma/*.db
+server/prisma/*.db-journal
+
+# 环境变量：现在包含 LLM_API_KEY 等密钥，一律不入库。
+# 新环境请复制 server/.env.example 再填值。
+.env
+.env.*
+!.env.example

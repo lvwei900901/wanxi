@@ -1,0 +1,59 @@
+/* ============================================================
+   设计令牌 — 「明亮报告」视觉体系
+   浅灰底 + 纯白卡片 + 发丝边 + 极轻阴影；单一亮朱红作为主信号。
+   层级靠留白、字阶和边框，不靠重投影。
+   ============================================================ */
+
+:root {
+  /* 面 */
+  --paper: #f4f6f9;
+  --paper-hi: #ffffff;
+  --paper-sunk: #eef1f6;
+
+  /* 字 */
+  --ink: #0f172a;
+  --ink-soft: #334155;
+  --muted: #5c6779;
+  --faint: #94a0b2;
+
+  /* 线 */
+  --rule: #e3e8ef;
+  --rule-soft: #eef1f6;
+  --rule-strong: #cfd6e0;
+
+  /* 强调：亮朱红，仅用于「可见度」这一主信号与交互态 */
+  --accent: #f4511e;
+  --accent-deep: #d33c0c;
+  --accent-wash: #ffe9e0;
+  --accent-faint: #ffd3c2;
+
+  /* 图表辅助色（对应五个平台） */
+  --pine: #0d9488;
+  --ochre: #d97706;
+  --slate: #2563eb;
+  --plum: #7c3aed;
+  --blue: #2563eb;
+
+  /* 阴影：浅、短、低透明度 */
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04), 0 6px 16px -8px rgba(15, 23, 42, 0.08);
+  --shadow-bar: 0 1px 0 rgba(15, 23, 42, 0.05), 0 6px 14px -10px rgba(15, 23, 42, 0.16);
+
+  /* 圆角 */
+  --radius-card: 14px;
+  --radius-ctl: 8px;
+
+  /* 字体 */
+  --font-serif: "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif CJK SC",
+    "Iowan Old Style", Georgia, serif;
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", "Microsoft YaHei",
+    system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  /* 节奏 */
+  --gutter: clamp(18px, 3.2vw, 52px);
+  --shell: 1560px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* 层级 */
+  --z-filter: 40;
+}

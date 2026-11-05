@@ -1,0 +1,112 @@
+// AI Visibility 数据模型 —— 3 张表
+// 说明：
+// 1) SQLite 无原生 DATE / JSON 类型，Prisma 也不支持 SQLite 的 Json 标量，
+//    因此日期用 ISO 字符串（YYYY-MM-DD，字符串序即日期序），
+//    引用 / 产品两个嵌套数组用 JSON 文本存储，在 service 层做解析。
+// 2) 唯一键 (platform_id, question, observed_on) 是导入幂等的依据：
+//    同一份数据重复导入只会更新、不会翻倍。
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Platform {
+  id        Int    @id
+  name      String @unique
+  sortOrder Int    @default(0) @map("sort_order")
+
+  records AnswerRecord[]
+
+  @@map("platforms")
+}
+
+model ImportBatch {
+  id          Int      @id @default(autoincrement())
+  sourceFile  String   @map("source_file")
+  periodStart String   @map("period_start")
+  periodEnd   String   @map("period_end")
+  rowCount    Int      @map("row_count")
+  status      String   @default("success")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  records AnswerRecord[]
+
+  @@map("import_batches")
+}
+
+model AnswerRecord {
+  id       Int    @id @default(autoincrement())
+  sourceId Int    @unique @map("source_id")
+  /// 品牌，接口 ?brand= 的筛选依据；当前数据集只有 AsterVision
+  brand String @default("AsterVision")
+  /// 观测日期，YYYY-MM-DD
+  observedOn String @map("observed_on")
+
+  platformId Int    @map("platform_id")
+  topic      String
+  intentCode String @map("intent_code")
+  question   String
+
+  brandMentioned   Boolean @map("brand_mentioned")
+  brandRecommended Boolean @map("brand_recommended")
+  sentiment        String
+  answerExcerpt    String? @map("answer_excerpt")
+
+  /// JSON 文本：["Nova PTZ 30"]
+  mentionedProducts String @default("[]") @map("mentioned_products")
+  /// JSON 文本：[{ title, url, source_type }]
+  citations         String @default("[]")
+  citationCount     Int    @default(0) @map("citation_count")
+
+  importBatchId Int? @map("import_batch_id")
+
+  platform    Platform     @relation(fields: [platformId], references: [id])
+  importBatch ImportBatch? @relation(fields: [importBatchId], references: [id])
+
+  @@unique([platformId, question, observedOn])
+  @@index([brand, observedOn])
+  @@index([topic])
+  @@index([platformId, observedOn])
+  @@map("answer_records")
+}
+
+/// AI Insight 的一次对话。按「品牌 + 区间」区分：
+/// 同一个看板视图下的提问归入同一会话，切换区间后自然开新会话，
+/// 避免把 8 月的分析结论带进 7 月的对话里。
+model InsightSession {
+  id         String   @id @default(cuid())
+  brand      String
+  periodFrom String   @map("period_from")
+  periodTo   String   @map("period_to")
+  /// 用首条提问截断生成，便于将来做会话列表
+  title      String?
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  messages InsightMessage[]
+
+  @@index([brand, periodFrom, periodTo, updatedAt])
+  @@map("insight_sessions")
+}
+
+model InsightMessage {
+  id        Int      @id @default(autoincrement())
+  sessionId String   @map("session_id")
+  /// user | assistant
+  role      String
+  /// 原文；assistant 存 markdown（前端用 XMarkdown 渲染）
+  content   String
+  /// 仅 assistant 有值，来自 GLM 的 usage.completion_tokens
+  tokens    Int?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  session InsightSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId, createdAt])
+  @@map("insight_messages")
+}
